@@ -61,7 +61,7 @@ public:
 private:
     int                   mAddress;
     ISmartHouseDeviceAPI* mImplApi;
-}
+};
 
 class LikeLinuxDevice
 : public ISmartHouseDeviceAPI
@@ -111,7 +111,7 @@ public:
         {
             fstream *device = mDevices.at(aChannel);
             device->close();
-            mDevices.erease(aChannel);
+            mDevices.erase(aChannel);
         }   
     }
     
@@ -149,7 +149,7 @@ public:
         cout << "Close channel " << aChannel << endl;
     }
     
-}
+};
 
 int main ()
 {
@@ -157,8 +157,8 @@ int main ()
     
     IRelay* relay = new Relay(2, api);
     
-    relay->on();
-    relay->off();
+    relay->On();
+    relay->Off();
     
     delete relay;
     delete api;
