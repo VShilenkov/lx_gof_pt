@@ -1,0 +1,67 @@
+{
+    "version": "0.1.0",
+    "windows": {
+        "command": "cmd",
+        "isShellCommand": true,
+        "options": {
+            "cwd": "${fileDirname}"
+        },
+        "args": [
+            "/C"
+        ],
+        "showOutput": "always",
+        "tasks": [
+            {
+                "taskName": "Build CPP",
+                "args": [
+                    "g++",
+                    "${fileBasename}",
+                    "-Wall",
+                    "-o",
+                    "${fileBasename}.exe"
+                ],
+                "isBuildCommand": true,
+                "suppressTaskName": true,
+                "problemMatcher": {
+                    "owner": "cpp",
+                    "fileLocation": [
+                        "relative",
+                        "${fileDirname}"
+                    ],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            },
+            {
+                "taskName": "Run Executable",
+                "args": [
+                    "${fileBasename}.exe"
+                ],
+                "suppressTaskName": true
+            },
+            {
+                "taskName": "Run Test",
+                "args": [
+                    "${fileBasename}.exe", 
+                    "-test_run"
+                ],
+                "isTestCommand": true,
+                "suppressTaskName": true
+            },
+            {
+                "taskName": "Build Python",
+                "args": [
+                    "python",
+                    "${fileBasename}"
+                ],
+                "suppressTaskName": true
+            }
+        ]
+    }
+}
