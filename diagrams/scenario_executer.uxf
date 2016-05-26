@@ -36,9 +36,11 @@
       <x>640</x>
       <y>130</y>
       <w>140</w>
-      <h>30</h>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>ScenarioExecuter</panel_attributes>
+    <panel_attributes>ScenarioExecuter
+--
++ bool predicate()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
