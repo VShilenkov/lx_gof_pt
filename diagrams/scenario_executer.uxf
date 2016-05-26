@@ -4,25 +4,25 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
+      <x>370</x>
       <y>130</y>
-      <w>130</w>
+      <w>180</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>LightContainer
 --
-+ getLightIterator()</panel_attributes>
++ getLightIterator(predicate)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
+      <x>370</x>
       <y>220</y>
-      <w>130</w>
+      <w>180</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>LightIterator
+    <panel_attributes>LightIterator&lt;predicate&gt;
 --
 + getGerProperty()
 + operator++()
