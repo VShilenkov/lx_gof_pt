@@ -4,12 +4,12 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
+      <x>260</x>
       <y>130</y>
-      <w>100</w>
+      <w>140</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Provider</panel_attributes>
+    <panel_attributes>/Provider&lt;Event&gt;/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -54,7 +54,7 @@ m2=*</panel_attributes>
       <w>140</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>/Observer/
+    <panel_attributes>/Observer&lt;Event&gt;/
 --
 + subscribe(event)
 + handleEvent(event)</panel_attributes>
@@ -65,11 +65,11 @@ m2=*</panel_attributes>
     <coordinates>
       <x>160</x>
       <y>130</y>
-      <w>140</w>
+      <w>120</w>
       <h>270</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>120.0;10.0;10.0;10.0;10.0;250.0;100.0;250.0</additional_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;250.0;100.0;250.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
