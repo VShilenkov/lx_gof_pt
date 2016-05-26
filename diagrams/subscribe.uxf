@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>130</y>
+      <x>350</x>
+      <y>200</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>150</y>
+      <x>410</x>
+      <y>220</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>250</y>
+      <x>350</x>
+      <y>320</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>270</y>
+      <x>410</x>
+      <y>340</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
@@ -49,8 +49,8 @@ m2=*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>370</y>
+      <x>350</x>
+      <y>440</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
@@ -63,8 +63,8 @@ m2=*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>130</y>
+      <x>250</x>
+      <y>200</y>
       <w>120</w>
       <h>270</h>
     </coordinates>
@@ -74,8 +74,8 @@ m2=*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>430</y>
+      <x>410</x>
+      <y>500</y>
       <w>30</w>
       <h>110</h>
     </coordinates>
@@ -85,12 +85,34 @@ m2=*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>520</y>
+      <x>370</x>
+      <y>590</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Handler</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>120</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>100</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Provider</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
